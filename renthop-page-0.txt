@@ -1,0 +1,20 @@
+Title: 1BR, 1BA at West 43rd Street	Price: $2,995	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at 540 East 20th Street	Price: $3,312	Address:Stuyvesant Town - Peter Cooper Village, Midtown Manhattan, Manhattan, Gramercy Park, East Village
+Title: 1BR, 1BA at 626 East 20th Street	Price: $3,315	Address:Stuyvesant Town - Peter Cooper Village, Midtown Manhattan, Manhattan, Gramercy Park, East Village
+Title: 3BR, 1BA at 179 Ave B	Price: $4,550	Address:Alphabet City, East Village, Downtown Manhattan, Manhattan
+Title: 3BR, 1BA at 264 W 19th St	Price: $4,900	Address:Chelsea, Midtown Manhattan, Manhattan
+Title: 2BR, 2BA at W 86th St	Price: $7,000	Address:Upper West Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at East 95th Street	Price: $3,595	Address:Upper East Side, Upper Manhattan, Manhattan
+Title: 4BR, 1BA at East 22nd Street	Price: $5,795	Address:Flatiron District, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at W 86th St	Price: $4,579	Address:Upper West Side, Upper Manhattan, Manhattan
+Title: 2BR, 2BA at West 25th Street	Price: $7,400	Address:NoMad, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at 2620 21st Street	Price: $2,400	Address:Astoria, Northwestern Queens, Queens
+Title: 3BR, 1BA at West 105th Street	Price: $3,795	Address:Manhattan Valley, Upper West Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at Avenue C	Price: $3,650	Address:Alphabet City, East Village, Downtown Manhattan, Manhattan
+Title: 3BR, 2BA at 135 William Street	Price: $6,995	Address:Financial District, Downtown Manhattan, Manhattan
+Title: 2BR, 2BA at River Terrace	Price: $5,100	Address:Battery Park City, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at 429 West 46th Street #6D	Price: $2,034	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: Studio, 1BA at E 15 Street	Price: $2,700	Address:Gramercy Park, Midtown Manhattan, Manhattan
+Title: 2BR, 1BA at 299 East 8th Street	Price: $3,195	Address:Alphabet City, East Village, Downtown Manhattan, Manhattan
+Title: 3BR, 1BA at 28th Ave	Price: $2,750	Address:Astoria, Northwestern Queens, Queens
+Title: 2BR, 1BA at W 21st St.	Price: $4,000	Address:Chelsea, Midtown Manhattan, Manhattan
