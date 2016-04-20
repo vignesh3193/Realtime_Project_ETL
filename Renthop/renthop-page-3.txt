@@ -1,0 +1,20 @@
+Title: 1BR, 1BA at East 55th Street	Price: $2,249	Address:Midtown East, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at West 37th Street	Price: $3,400	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 3BR, 1BA at West 54th Street	Price: $4,300	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 2BR, 2BA at West 42nd Street	Price: $4,858	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 3BR, 2BA at 17TH STREET AND 5TH AVE	Price: $5,000	Address:Flatiron District, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at 319 Avenue C	Price: $3,327	Address:Stuyvesant Town - Peter Cooper Village, Midtown Manhattan, Manhattan, Gramercy Park, East Village
+Title: 3BR, 2BA at 400 West 63rd Street	Price: $7,654	Address:Lincoln Square, Upper West Side, Upper Manhattan, Manhattan
+Title: 3BR, 3BA at Netherland Ave.	Price: $4,350	Address:Spuyten Duyvil, Riverdale, West Bronx, Bronx
+Title: 2BR, 1BA at West 139th Street	Price: $2,750	Address:Central Harlem, Upper Manhattan, Manhattan
+Title: 3BR, 2BA at east 32 street and madison	Price: $5,000	Address:Murray Hill, Midtown Manhattan, Manhattan
+Title: 2BR, 1BA at Water Street	Price: $5,395	Address:DUMBO, Northwestern Brooklyn, Brooklyn
+Title: Studio, 1BA at E 36 Street	Price: $2,750	Address:Murray Hill, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at E 55th St.	Price: $3,100	Address:Sutton Place, Midtown East, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at E 83rd St.	Price: $3,690	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at 721 Fifth Avenue	Price: $5,800	Address:Midtown East, Midtown Manhattan, Manhattan
+Title: 3BR, 2BA at 17 Greenwich Avenue	Price: $6,400	Address:West Village, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at LIC	Price: $2,999	Address:Hunters Point, Long Island City, Northwestern Queens, Queens
+Title: 1BR, 1BA at W. 37th Street	Price: $3,595	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 2BR, 1BA at West 17th Street	Price: $4,495	Address:Chelsea, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at East 67	Price: $5,000	Address:Lenox Hill, Upper East Side, Upper Manhattan, Manhattan

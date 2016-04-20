@@ -1,0 +1,20 @@
+Title: 3BR, 1BA at Hanover sq	Price: $4,115	Address:Financial District, Downtown Manhattan, Manhattan
+Title: Studio, 1BA at East 86 Street	Price: $2,475	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at West 86th Street	Price: $3,495	Address:Upper West Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at 305 West 13th Street	Price: $3,995	Address:West Village, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at East 82 Street	Price: $2,950	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at 771 42nd street	Price: $1,900	Address:Sunset Park, South Brooklyn, Brooklyn
+Title: 4BR, 2BA at Madison Ave.	Price: $6,895	Address:NoMad, Midtown Manhattan, Manhattan
+Title: 3BR, 1BA at 2nd Ave and Eas 3rd	Price: $6,500	Address:Bowery, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at W 56 St.	Price: $2,940	Address:Theater District, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at Degraw Street	Price: $2,550	Address:North Slope, Park Slope, South Brooklyn, Brooklyn
+Title: 2BR, 1BA at West 47th Street	Price: $3,600	Address:Theater District, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at East 89th Street	Price: $3,550	Address:Carnegie Hill, Upper East Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at East 37th Street	Price: $3,500	Address:Murray Hill, Midtown Manhattan, Manhattan
+Title: 2BR, 2BA at West 26th Street	Price: $6,561	Address:NoMad, Midtown Manhattan, Manhattan
+Title: 3BR, 1BA at 20 Exchange Place	Price: $3,950	Address:Financial District, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at East 78th Street	Price: $3,300	Address:Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at Barclay Street	Price: $3,725	Address:Tribeca, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at West 79th Street	Price: $5,750	Address:Upper West Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at 224 W 13th St	Price: $3,500	Address:Brownsville, Eastern Brooklyn, Brooklyn
+Title: 2BR, 1BA at Amsterdam Avenue	Price: $2,795	Address:Upper West Side, Upper Manhattan, Manhattan

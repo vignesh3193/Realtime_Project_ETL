@@ -1,0 +1,20 @@
+Title: 1BR, 1BA at W 14 Street	Price: $4,825	Address:Flatiron District, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at 17th Street	Price: $2,500	Address:South Slope, Park Slope, South Brooklyn, Brooklyn
+Title: 1BR, 1BA at 111 West 67 Street	Price: $5,200	Address:Lincoln Square, Upper West Side, Upper Manhattan, Manhattan
+Title: Studio, 1BA at Second Avenue	Price: $2,925	Address:East Village, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at E 36 Street	Price: $2,600	Address:Murray Hill, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at Horatio Street	Price: $5,050	Address:West Village, Downtown Manhattan, Manhattan
+Title: Studio, 1BA at E 12 Street	Price: $2,850	Address:East Village, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at 309 Avenue C	Price: $4,210	Address:Stuyvesant Town - Peter Cooper Village, Midtown Manhattan, Manhattan, Gramercy Park, East Village
+Title: 3BR, 1BA at E 26 Street	Price: $4,995	Address:Rose Hill, Kips Bay, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at	Price: $2,995	Address:Brooklyn
+Title: 1BR, 1BA at West 43rd Street	Price: $2,995	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 2BR, 1BA at E 13 Street	Price: $3,400	Address:East Village, Downtown Manhattan, Manhattan
+Title: Studio, 1BA at Bleecker Street	Price: $3,100	Address:Greenwich Village, Downtown Manhattan, Manhattan
+Title: 3BR, 2BA at Third Avenue	Price: $5,050	Address:Rose Hill, Kips Bay, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at West 42nd Street	Price: $3,190	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: Studio, 1BA at Maiden Lane	Price: $2,525	Address:Financial District, Downtown Manhattan, Manhattan
+Title: 5BR, 2BA at Broome Street	Price: $6,300	Address:Little Italy, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at West 96th Street	Price: $3,200	Address:Upper West Side, Upper Manhattan, Manhattan
+Title: Studio, 1BA at E 36 Street	Price: $2,100	Address:Murray Hill, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at 22-05 37th Street	Price: $1,800	Address:Astoria, Northwestern Queens, Queens

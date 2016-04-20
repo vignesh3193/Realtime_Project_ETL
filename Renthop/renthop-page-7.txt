@@ -1,0 +1,20 @@
+Title: 1BR, 1BA at Schermerhorn	Price: $3,475	Address:Downtown Brooklyn, Northwestern Brooklyn, Brooklyn
+Title: 1BR, 1BA at Center Blvd	Price: $3,250	Address:Hunters Point, Long Island City, Northwestern Queens, Queens
+Title: 1BR, 1BA at Mott Street	Price: $2,350	Address:Little Italy, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at East 34 st	Price: $3,200	Address:Kips Bay, Midtown Manhattan, Manhattan
+Title: 3BR, 2BA at West 37th Street	Price: $5,195	Address:Garment District, Midtown Manhattan, Manhattan
+Title: Studio, 1BA at Third Avenue	Price: $2,750	Address:East Village, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at Avenue C	Price: $3,650	Address:Alphabet City, East Village, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at George Street	Price: $2,450	Address:Bushwick, Northern Brooklyn, Brooklyn
+Title: 1BR, 1BA at East 95th Street	Price: $2,795	Address:Upper East Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at 22-78 29th street, Astoria, NY...	Price: $2,500	Address:Ditmars, Astoria, Northwestern Queens, Queens
+Title: 2BR, 2BA at W 54th St	Price: $4,860	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 2BR, 1BA at Morton Street	Price: $3,600	Address:West Village, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at Third Ave	Price: $2,500	Address:Upper East Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at East 77	Price: $2,800	Address:Upper East Side, Upper Manhattan, Manhattan
+Title: 3BR, 1BA at Lexington Ave & East 55th Stre...	Price: $4,495	Address:Hoboken
+Title: Studio, 1BA at 444 EAST 81st ST	Price: $1,895	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 3BR, 1BA at 1822 Cornelia Street	Price: $2,650	Address:Ridgewood, Northwestern Queens, Queens
+Title: 2BR, 1BA at 299 East 8th Street	Price: $3,195	Address:Alphabet City, East Village, Downtown Manhattan, Manhattan
+Title: Studio, 1BA at Wall Street	Price: $2,895	Address:Financial District, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at East 95th Street	Price: $3,595	Address:Upper East Side, Upper Manhattan, Manhattan

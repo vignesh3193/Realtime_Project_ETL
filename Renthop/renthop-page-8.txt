@@ -1,0 +1,20 @@
+Title: 1BR, 1BA at East 66th Street	Price: $4,200	Address:Lenox Hill, Upper East Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at East 88 Street	Price: $3,300	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at East 88th Street	Price: $2,550	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at East 83rd Street	Price: $2,550	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 1BR, 1BA at 48th St	Price: $1,750	Address:Sunnyside, Long Island City, Northwestern Queens, Queens
+Title: 4BR, 2BA at W 43 St.	Price: $5,995	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 3BR, 1BA at Thompson Street	Price: $3,625	Address:SoHo, Downtown Manhattan, Manhattan
+Title: 2BR, 1BA at E 56 Street	Price: $4,795	Address:Midtown East, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at W 54 St.	Price: $2,595	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at East 96th Street	Price: $2,995	Address:East Harlem, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at First Ave	Price: $2,750	Address:Yorkville, Upper East Side, Upper Manhattan, Manhattan
+Title: 3BR, 1BA at West 103rd Street	Price: $4,100	Address:Manhattan Valley, Upper West Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at West 37th Street	Price: $3,395	Address:Hell's Kitchen, Midtown Manhattan, Manhattan
+Title: 5BR, 3BA at West 107th Street	Price: $8,000	Address:Manhattan Valley, Upper West Side, Upper Manhattan, Manhattan
+Title: 2BR, 1BA at 285 Avenue C	Price: $3,864	Address:Stuyvesant Town - Peter Cooper Village, Midtown Manhattan, Manhattan, Gramercy Park, East Village
+Title: 3BR, 1BA at 518 4th Ave	Price: $3,150	Address:Gowanus, South Brooklyn, Brooklyn
+Title: 2BR, 1BA at East 2nd Street	Price: $3,500	Address:Alphabet City, East Village, Downtown Manhattan, Manhattan
+Title: 1BR, 1BA at Water St.	Price: $3,508	Address:Financial District, Downtown Manhattan, Manhattan
+Title: Studio, 1BA at West 34th Street	Price: $2,900	Address:Koreatown, Midtown Manhattan, Manhattan
+Title: 1BR, 1BA at 850 Amsterdam Avenue	Price: $3,550	Address:Manhattan Valley, Upper West Side, Upper Manhattan, Manhattan
