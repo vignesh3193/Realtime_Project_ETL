@@ -12,6 +12,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.UnreachableBrowserException;
 
+import com.google.common.base.CharMatcher;
+
 public class Main {
 
 	public static int renthopPageLimit = 0;
@@ -21,11 +23,11 @@ public class Main {
 	public static WebDriver renthopBrowser = new FirefoxDriver();
 	public static WebDriver craigslistBrowser = new FirefoxDriver();
 	public static WebDriver streetEasyBrowser = new FirefoxDriver();
-	
+
 	public static FileWriter renthopFileWriter;
 	public static FileWriter craigslistFileWriter;
 	public static FileWriter streetEasyFileWriter;
-	
+
 	public static void renthopDriver(){
 		for(int i = 0; i < renthopPageLimit; i++){
 			try {
@@ -53,7 +55,7 @@ public class Main {
 
 		String text = renthopBrowser.findElement(By.id("search-results-box")).getText();
 		String[] listings = text.split("Check Availability");
-		
+
 		int aptType = 0;
 		for(String s: listings){
 			int index = 0;
@@ -81,11 +83,9 @@ public class Main {
 				neighborhood = neighborhoods[0];
 			ApartmentObject aptObj = new ApartmentObject(neighborhood, aptType, Integer.parseInt(rent));
 			renthopFileWriter.write(aptObj.toString() + "\n");
-//			System.out.println("An apartment: " + aptObj);
 		}
-		renthopFileWriter.flush();
 	}
-	
+
 	public static void streetEasyDriver(){
 		for(int i = 0; i < streetEasyPageLimit; i++){
 			try {
@@ -103,16 +103,16 @@ public class Main {
 
 	public static void getStreetEasyPages(int page) throws IOException{
 		streetEasyBrowser.navigate().to("http://streeteasy.com/for-rent/manhattan?page="+page);
-		
+
 		List<WebElement> priceList = streetEasyBrowser.findElements(By.className("price"));
 		List<WebElement> numBedrooms = streetEasyBrowser.findElements(By.className("first_detail_cell"));
-		
+
 		List<WebElement> neighborhood = streetEasyBrowser.findElements(By.className("details_info"));
 		ArrayList<ApartmentObject> aptList = new ArrayList<>();
 		for(int i = 0; i < 15; i++){
 			aptList.add(new ApartmentObject());
 		}
-		
+
 		int index = 0;
 		for(int i = 0; i < neighborhood.size(); i++){
 			String text = neighborhood.get(i).getText();
@@ -129,17 +129,17 @@ public class Main {
 				aptList.get(index++).rent = Double.parseDouble(text);
 			}
 		}
-		
+
 		index = 0;
 		for(int i = 0; i < numBedrooms.size(); i++){
 			String text = numBedrooms.get(i).getText();
 			aptList.get(index++).numBedrooms = Integer.parseInt(text.split(" ")[0]);
 		}
 		aptList.remove(aptList.size()-1);
-		
+
 		for(ApartmentObject apt: aptList)
 			streetEasyFileWriter.write(apt + "\n");
-		
+
 	}
 
 	public static void craigslistDriver(){
@@ -169,41 +169,87 @@ public class Main {
 		// Javascript part is optional. Just to see if allows to traverse without getting caught 
 		((JavascriptExecutor)craigslistBrowser).executeScript("scroll(0,400)");
 		List<WebElement> text = craigslistBrowser.findElements(By.className("row"));
-		List<WebElement> images = craigslistBrowser.findElements(By.className("slider-info"));
-		for(WebElement y: images){
-			System.out.println("Val: " + y.getText());
-		}
-		
+
+
 		for(int i = 0; i < text.size(); i++){
-			WebElement thisElement = text.get(i).findElement(By.className("slider-info"));
-			if(thisElement != null){
-				System.out.println("Image? " + thisElement.getText());
-			}
-			
 			String temp = text.get(i).getText();
+
+			temp = CharMatcher.inRange((char)0, (char)128).retainFrom(temp);
+			WebElement thisElement = text.get(i);
+			boolean hasImage = false;
+			int numImages = 0;
+			try {
+				List<WebElement> x = thisElement.findElements(By.className("swipe-wrap"));
+				x.get(0).getText();
+				hasImage = true;
+			} catch (Exception e) {
+				numImages = 0;
+			}
+			if(hasImage){
+				WebElement newImages = thisElement.findElement(By.className("swipe-wrap"));
+				try {
+					if(newImages != null){
+						List<WebElement> children = newImages.findElements(By.xpath(".//div"));
+						numImages = children.size();
+					}
+				} catch (NoSuchElementException e) {
+					// TODO: handle exception
+					numImages = 1;
+				}
+			}	
+
 			ApartmentObject apt = new ApartmentObject();
 			apt.isCraigsList = true;
-			List<WebElement> imageInfo = text.get(i).findElements(By.className("slider-info"));
-//			if(imageInfo != null){ // Listing contains an image
-//				for(WebElement x: imageInfo)
-//					System.out.println("Value? " + x.getText());
-//			}
-//			if(temp.contains("image")){ 
-//				
-//				apt.hasImage = true;
-//			}
-//			System.out.println("Temp: "+temp);
-//			craigslistFileWriter.write(temp + "\n");
-		}
+			apt.numImages = numImages;
+			apt.description = temp;
 
-		craigslistFileWriter.close();
+			int rentStart = temp.indexOf("$");
+			while(temp.charAt(rentStart +1) >= '0' && temp.charAt(rentStart +1) <= '9'){
+				apt.rent += temp.charAt(rentStart+1) - '0';
+				apt.rent *= 10;
+				rentStart++;
+			}
+			apt.rent /= 10;
+			String lowerCase = temp.toLowerCase();
+			int bedroomIndex = lowerCase.indexOf("br");
+			if(bedroomIndex == -1){
+				bedroomIndex = lowerCase.indexOf("bedroom");
+			}
+			if(bedroomIndex == -1){ // No info as bedroom or br.
+				apt.numBedrooms = 1;
+			}
+
+			else if(bedroomIndex > 0 && lowerCase.charAt(bedroomIndex-1) >= '0' && lowerCase.charAt(bedroomIndex-1) <= '9'){
+				apt.numBedrooms = lowerCase.charAt(bedroomIndex-1) - '0';
+			}
+			else if(bedroomIndex >= 2 && lowerCase.charAt(bedroomIndex-2) >= '0' && lowerCase.charAt(bedroomIndex-2) <= '9'){
+				apt.numBedrooms = lowerCase.charAt(bedroomIndex -2) - '0';
+			}
+			else{
+				apt.numBedrooms = 1;
+			}
+
+			int neighborhoodStartIndex = temp.lastIndexOf('(');
+			int neighborhoodEndIndex = temp.lastIndexOf(')');
+			String neighborhood = temp.substring(neighborhoodStartIndex+1, neighborhoodEndIndex);
+			if(neighborhood.contains("\\")){
+				apt.neighborhood = neighborhood.split("\\")[0];
+			}
+			else if(neighborhood.contains("/")){
+				apt.neighborhood = neighborhood.split("/")[0];
+			}
+			else{
+				apt.neighborhood = neighborhood;
+			}
+			craigslistFileWriter.write(apt + "\n");
+		}
 	}
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		renthopFileWriter = new FileWriter("Renthop/RenthopInput.txt", true);
 		streetEasyFileWriter = new FileWriter("StreetEasy/StreetEasyInput.txt");
 		craigslistFileWriter = new FileWriter("Craigslist/CraigslistInput.txt");
-		
+
 		Thread renthopThread = new Thread(new Runnable() {
 
 			@Override
@@ -237,7 +283,7 @@ public class Main {
 			}
 		});
 
-		
+
 		Thread streetEasyThread = new Thread(new Runnable() {
 
 			@Override
@@ -253,7 +299,7 @@ public class Main {
 				}
 			}
 		});
-		
+
 		renthopThread.start();
 		craigslistThread.start();
 		streetEasyThread.start();

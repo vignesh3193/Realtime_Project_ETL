@@ -14,7 +14,7 @@ public class ApartmentObject {
 	// These are for Craigslist listings.
 	public boolean isCraigsList;
 	public String description;
-	public boolean hasImage;
+	public int numImages;
 	
 	private static String delimiter = "\t";
 	
@@ -24,6 +24,7 @@ public class ApartmentObject {
 		this.rent = 0.0;
 		this.numBedrooms = 0;
 		this.isCraigsList = false;
+		this.numImages = 0;
 	}
 	
 	public ApartmentObject(String neighborhood, int numBedrooms, double rent){
@@ -31,13 +32,12 @@ public class ApartmentObject {
 		this.neighborhood = neighborhood;
 		this.rent = rent;
 		this.numBedrooms = numBedrooms;
-		
 	}
 	
 	public String toString(){
 		if(!isCraigsList)
 			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms;
 		else
-			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms + delimiter + this.hasImage + delimiter + this.description;
+			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms + delimiter + this.numImages + delimiter + this.description;
 	}
 }
