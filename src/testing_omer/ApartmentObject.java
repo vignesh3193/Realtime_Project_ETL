@@ -15,6 +15,7 @@ public class ApartmentObject {
 	public boolean isCraigsList;
 	public String description;
 	public int numImages;
+	public int hasMap;
 	
 	private static String delimiter = "\t";
 	
@@ -25,6 +26,7 @@ public class ApartmentObject {
 		this.numBedrooms = 0;
 		this.isCraigsList = false;
 		this.numImages = 0;
+		this.hasMap=0;
 	}
 	
 	public ApartmentObject(String neighborhood, int numBedrooms, double rent){
@@ -38,6 +40,6 @@ public class ApartmentObject {
 		if(!isCraigsList)
 			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms;
 		else
-			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms + delimiter + this.numImages + delimiter + this.description;
+			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms + delimiter + this.numImages + delimiter + this.hasMap + delimiter + this.description;
 	}
 }

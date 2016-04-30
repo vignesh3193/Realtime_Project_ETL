@@ -17,7 +17,7 @@ import com.google.common.base.CharMatcher;
 public class Main {
 
 	public static int renthopPageLimit = 0;
-	public static int craigslistPageLimit = 0;
+	public static int craigslistPageLimit = 1;
 	public static int streetEasyPageLimit = 0;
 
 	public static WebDriver renthopBrowser = new FirefoxDriver();
@@ -143,9 +143,15 @@ public class Main {
 	}
 
 	public static void craigslistDriver(){
+		int minprice=1000;
+		int maxprice=1500;
+		for(int j=0;j<1;j++)
+		{
+		maxprice+=500;
+		minprice+=500;
 		for(int i = 0; i < craigslistPageLimit; i++){
 			try {
-				getCraigsPages(i);
+				getCraigsPages(i,minprice,maxprice);
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
@@ -157,14 +163,26 @@ public class Main {
 				System.out.println();
 				e.printStackTrace();
 			}
+			catch(Exception e){
+				System.out.println("lel");
+			}
+		}
 		}
 	}
 
-	public static void getCraigsPages(int page) throws IOException{
+	public static void getCraigsPages(int page,int minprice, int maxprice) throws IOException{
+		
+		
 		String navigationString = "https://newyork.craigslist.org/search/mnh/aap";
+		
 		if(page != 0){
-			navigationString = navigationString.concat("?s="+(100*page));
+			navigationString = navigationString.concat("?s="+(100*page)+"&min_price="+minprice+"&max_price="+maxprice);
 		}
+		else
+		{
+			navigationString = navigationString.concat("?min_price="+minprice+"&max_price="+maxprice);
+		}
+		
 		craigslistBrowser.navigate().to(navigationString);
 		// Javascript part is optional. Just to see if allows to traverse without getting caught 
 		((JavascriptExecutor)craigslistBrowser).executeScript("scroll(0,400)");
@@ -177,7 +195,18 @@ public class Main {
 			temp = CharMatcher.inRange((char)0, (char)128).retainFrom(temp);
 			WebElement thisElement = text.get(i);
 			boolean hasImage = false;
+			int hasMap=0;
+			
 			int numImages = 0;
+			
+			try {
+				List<WebElement> x = thisElement.findElements(By.className("maptag"));
+				x.get(0);
+				hasMap = 1;
+			} catch (Exception e) {
+				System.out.println("nomap");
+			}
+			//System.out.println(hasMap);
 			try {
 				List<WebElement> x = thisElement.findElements(By.className("swipe-wrap"));
 				x.get(0).getText();
@@ -202,6 +231,7 @@ public class Main {
 			apt.isCraigsList = true;
 			apt.numImages = numImages;
 			apt.description = temp;
+			apt.hasMap=hasMap;
 
 			int rentStart = temp.indexOf("$");
 			while(temp.charAt(rentStart +1) >= '0' && temp.charAt(rentStart +1) <= '9'){
@@ -232,6 +262,7 @@ public class Main {
 			int neighborhoodStartIndex = temp.lastIndexOf('(');
 			int neighborhoodEndIndex = temp.lastIndexOf(')');
 			String neighborhood = temp.substring(neighborhoodStartIndex+1, neighborhoodEndIndex);
+			neighborhood=neighborhood.toLowerCase();
 			if(neighborhood.contains("\\")){
 				apt.neighborhood = neighborhood.split("\\")[0];
 			}
