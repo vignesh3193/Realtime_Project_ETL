@@ -16,9 +16,12 @@ import com.google.common.base.CharMatcher;
 
 public class Main {
 
-	public static int renthopPageLimit = 0;
+	public static int renthopPageLimit = 1;
 	public static int craigslistPageLimit = 1;
-	public static int streetEasyPageLimit = 0;
+	public static int streetEasyPageLimit = 1;
+	public static int listing_count=0;
+	public static int nomap_count=0;
+	public static int noimage_count=0;
 
 	public static WebDriver renthopBrowser = new FirefoxDriver();
 	public static WebDriver craigslistBrowser = new FirefoxDriver();
@@ -81,6 +84,9 @@ public class Main {
 				neighborhood = neighborhoods[neighborhoods.length-2];
 			else 
 				neighborhood = neighborhoods[0];
+			
+			neighborhood=neighborhood.replace(" ", "");
+			neighborhood=neighborhood.toLowerCase();
 			ApartmentObject aptObj = new ApartmentObject(neighborhood, aptType, Integer.parseInt(rent));
 			renthopFileWriter.write(aptObj.toString() + "\n");
 		}
@@ -118,6 +124,8 @@ public class Main {
 			String text = neighborhood.get(i).getText();
 			if(text.contains(" in ")){
 				String neighbor = text.split(" in ")[1];
+				neighbor=neighbor.toLowerCase();
+				neighbor=neighbor.replace(" ","");
 				aptList.get(index++).neighborhood = neighbor;
 			}
 		}
@@ -144,7 +152,7 @@ public class Main {
 
 	public static void craigslistDriver(){
 		int minprice=1000;
-		int maxprice=1500;
+		int maxprice=1250;
 		for(int j=0;j<1;j++)
 		{
 		maxprice+=500;
@@ -190,6 +198,7 @@ public class Main {
 
 
 		for(int i = 0; i < text.size(); i++){
+			listing_count++;
 			String temp = text.get(i).getText();
 
 			temp = CharMatcher.inRange((char)0, (char)128).retainFrom(temp);
@@ -204,7 +213,8 @@ public class Main {
 				x.get(0);
 				hasMap = 1;
 			} catch (Exception e) {
-				System.out.println("nomap");
+				nomap_count++;
+				//System.out.println("nomap");
 			}
 			//System.out.println(hasMap);
 			try {
@@ -212,6 +222,7 @@ public class Main {
 				x.get(0).getText();
 				hasImage = true;
 			} catch (Exception e) {
+				noimage_count++;
 				numImages = 0;
 			}
 			if(hasImage){
@@ -230,7 +241,7 @@ public class Main {
 			ApartmentObject apt = new ApartmentObject();
 			apt.isCraigsList = true;
 			apt.numImages = numImages;
-			apt.description = temp;
+			apt.description = thisElement.findElement(By.className("hdrlnk")).getText();
 			apt.hasMap=hasMap;
 
 			int rentStart = temp.indexOf("$");
@@ -263,6 +274,7 @@ public class Main {
 			int neighborhoodEndIndex = temp.lastIndexOf(')');
 			String neighborhood = temp.substring(neighborhoodStartIndex+1, neighborhoodEndIndex);
 			neighborhood=neighborhood.toLowerCase();
+			neighborhood=neighborhood.replace(" ", "");
 			if(neighborhood.contains("\\")){
 				apt.neighborhood = neighborhood.split("\\")[0];
 			}
@@ -334,5 +346,9 @@ public class Main {
 		renthopThread.start();
 		craigslistThread.start();
 		streetEasyThread.start();
+		
+		System.out.println("total listings "+listing_count);
+		System.out.println("listings with no images "+noimage_count);
+		System.out.println("listings with no map location "+nomap_count);
 	}
 }

@@ -1,101 +1,100 @@
-1	tribeca	1750.0	1	9	1	Apr 29 $1750 - 1 bedroom in 2 bedroom apt - 5/15 start $1750 / 1br - (TriBeCa)
-2	upper east side	1778.0	1	6	1	Apr 29 Studio w/ Bay Window, Full Kitchen in Eco-Friendly Bldg, 1 Month Free $1778 (Upper East Side)
-3	little italy	1875.0	2	4	1	Apr 29 2 Bdrm For Lease. You'll find this spacious and sunny convertible 2-bedroom wher $1875 / 2br - (Little Italy)
-4	harlem 	1975.0	1	6	1	Apr 29 Fabulous Land-marked Location in Charming Community w/ Green Space $1975 / 1br - (Harlem / Morningside)
-5	harlem 	1845.0	1	6	1	Apr 29 Contemporary Finishes in Newly Renovated Apt w/ All Utilities Included $1845 / 1br - (Harlem / Morningside)
-6	greenwich village	1925.0	1	6	1	Apr 29 This one bedroom apartment has super unique detailing to it $1925 / 1br - (Greenwich Village)
-7	east harlem	1995.0	1	6	1	Apr 29 Showing Now: 1BR entire top floor of brownstone $1995 / 1br - 750ft2 - (East Harlem)
-8	upper east side	1950.0	1	13	1	Apr 29 LARGE STUDIO___NEXT TO BLOOMINGDALES___GORGEOUS59 ST & 2 AVE $1950 / 450ft2 - (Upper East Side)
-9	upper east side	1550.0	1	3	1	Apr 29 UNBEATABLE DEAL ON REAL 1 BD APT, CAN'T BEAT THIS! WON'T LAST!! $1550 / 1br - (Upper East Side)
-10	upper west side	1825.0	1	4	1	Apr 29 1 Bedroom - Move in TODAY - Great Place - Price you'll LOVE $1825 / 1br - (Upper West Side)
-11	washington heights	1800.0	3	8	1	Apr 29 *** Remodeled *** 3BR/1BA Apt with Updated Kitchen $1800 $1800 / 3br - 725ft2 - (Washington Heights)
-12	inwood 	1795.0	1	6	1	Apr 29 Apartment For Rent Students Welcomed No Broker's Fee $1795 / 1br - (Inwood / Wash Hts)
-13	inwood 	1775.0	1	7	1	Apr 29 1 Bedroom Apartment For Rent No Broker's Fee $1775 / 1br - (Inwood / Wash Hts)
-14	harlem 	1955.0	1	0	0	Apr 29 FABULOUS 1 BED APT--NEW RENOS--GR8 VIEWS--ATTND LOBBY--NO FEE $1955 / 1br - (Harlem / Morningside)
-15	midtown east	1955.0	1	6	1	Apr 29 Wow nice cozy studio quite E 60 st one block from train! $1955 / 375ft2 - (Midtown East)
-16	midtown west	1575.0	2	0	0	Apr 29 Unbeatable Amenities, Huge Windows, Granite Counters! $1575 / 2br - (Midtown West)
-17	east village	1795.0	1	4	1	Apr 29 ABSOLUTELY AMAZING STUDIO WITH RENOVATED KITCHEN AND BATHROOM! EAST VILLAGE! $1795 / 2ft2 - (East Village)
-18	east harlem	1670.0	9	5	1	Apr 29 Brand new Large 2 beds/2 bath renovated apartment! $1670 / 2br - (East Harlem)
-19	hamilton heights	1970.0	2	6	1	Apr 29 AMAZNG! $1970 / 2br - (Hamilton Heights)
-20	bowery	1545.0	2	0	0	Apr 29 Excellent Apt w/ the best in updates! $1545 / 2br - (Bowery)
-21	upper east side	1750.0	2	5	1	Apr 29 New to the market ! $1750 / 2br - (Upper East Side)
-22	clinton	1825.0	1	8	1	Apr 29 For Lease: 1 Bed / 1 Bath Apt $1825 / 1br - 600ft2 - (Clinton)
-23	harlem	1924.0	3	5	1	Apr 29 Special almost OVER! $1924 / 3br - 800ft2 - (Harlem)
-24	harlem 	1600.0	1	5	1	Apr 29 **Spacious Studio available ASAP! Located on 155th! Near Train!** $1600 (Harlem / Morningside)
-25	harlem 	1900.0	1	7	1	Apr 29 NO BROKER'S FEE 2 Bedroom Apartment $1900 / 2br - (Harlem / Morningside)
-26	morning side	1799.0	1	9	1	Apr 29 THIS IS SO INCREDIBLE HUGE 1 BR__TO DIE FOR __WEST 111 ST & 7 AVE $1799 / 1br - 650ft2 - (MORNING SIDE)
-27	midtown west	1800.0	1	21	1	Apr 29 LUXURY NYC Apt near Times Sqr.! $1800 / 1br - 850ft2 - (Midtown West)
-28	midtown west	1800.0	1	20	1	Apr 29 LUXURY NYC Apt near Times Sqr.! $1800 / 1br - 850ft2 - (Midtown West)
-29	harlem 	1660.0	1	0	0	Apr 29 OVERSIZED STUDIO**TONS OF CLOSETS**DRESSING AREA**NO FEE $1660 (Harlem / Morningside)
-30	chelsea	100.0	1	6	1	Apr 29 $100 OFF RENT FOR ALL 1 BEDROOMS!!!!!!!!!!!!!!!!!!!! $1879 / 1br - (Chelsea)
-31	midtown west	1800.0	1	20	1	Apr 29 LUXURY NYC Apt near Times Sqr.! $1800 / 1br - 850ft2 - (Midtown West)
-32	midtown west	1800.0	1	20	1	Apr 29 LUXURY NYC Apt near Times Sqr.! $1800 / 1br - 850ft2 - (Midtown West)
-33	east harlem	1750.0	1	0	0	Apr 29 SPECTACULAR STUDIO APT--NEW RENOS--GR8 CLOSETS--UTIL INCL--NO FEE $1750 (East Harlem)
-34	upper east side	1970.0	2	3	1	Apr 29 Apt For Lease In Upper East Side 2 Bedrooms / 1 Bathrooms $1970 / 2br - (Upper East Side)
-35	upper east side	1750.0	1	7	1	Apr 29 *MUST SEE* GUT RENO STUDIO W/ LOTS OF SUNLIGHT ON E 89TH *LAUNDRY* $1750 (Upper East Side)
-36	inwood 	1700.0	1	6	1	Apr 29 **SEE NOW**1BR in Inwood*Block from 1 Train**646-893-9732 $1700 / 1br - (Inwood / Wash Hts)
-37	upper east side	1900.0	1	6	1	Apr 29 JACKPOT! Large 1 Bed! E.88th! Prime Location! 917-723-3281 $1900 / 1br - (Upper East Side)
-38	upper east side	1750.0	1	6	1	Apr 29 Renovated! 89th & 1st! Big Studio! Great Price! SEE NOW! 917-723-3281 $1750 (Upper East Side)
-39	upper west side	1800.0	2	8	1	Apr 29 Completely Remodeled 2-Bedroom Apartment includes Heating! $1800 / 2br - (Upper West Side)
-40	east village	1775.0	9	6	1	Apr 29 Bright wing 2 bedroom with kitchenette and tile bath $1775 / 2br - (East Village)
-41	greenwich village	1540.0	2	0	0	Apr 29 Start your day with memorizing views. - rent reduced! $1540 / 2br - (Greenwich Village)
-42	midtown east	1900.0	1	6	1	Apr 29 Charming One Bedroom in Renovated walk-up building $1900 / 1br - (Midtown East)
-43	inwood 	1765.0	2	7	1	Apr 29 {owner no fee} beautifully renovated 2 bed (1mo free) $1765 / 2br - (Inwood / Wash Hts)
-44	chelsea	1975.0	1	4	1	Apr 29 Newly renovated first floor apartment in the heart of Chelsea $1975 / 1br - (Chelsea)
-45	east village	1800.0	2	3	1	Apr 29 AMAZING big bedroom NEW kitchen appliance renting in a 2-bedroom apt $1800 / 2br - (East Village)
-46	midtown east	1950.0	9	0	0	Apr 29 BRING FIDO & FLUFFY! CHARMING ALCOVE STUDIO! PETS WELCOME! $1950 (Midtown East)
-47	harlem 	1775.0	1	8	1	Apr 29 Renovated Apartment For Rent No Broker's Fee 2 Bedroom $1775 / 2br - (Harlem / Morningside)
-48	upper east side	1875.0	1	4	1	Apr 29 Lovely 1 Bed Apartment... Waiting for You to Make it Home! $1875 / 1br - 850ft2 - (Upper East Side)
-49	harlem 	1895.0	2	9	1	Apr 29 1st Floor 2 Bedroom Apartment For Rent Recently Renovated No Fee $1895 / 2br - (Harlem / Morningside)
-50	upper east side	1975.0	1	3	1	Apr 29 FABULOUS STUDIO Apt ^^ Prime Location -- New Renovations -- Bright! $1975 (Upper East Side)
-51	upper east side	2000.0	2	5	1	Apr 29 For Rent In Upper East Side 2 Bed / 1 Bath Condo $2000 / 2br - (Upper East Side)
-52	midtown east	1950.0	1	6	1	Apr 29 Wow location studio one block from train E 60st $1950 / 375ft2 - (Midtown East)
-53	chinatown 	2000.0	1	8	1	Apr 29 Renovated Hester 1BR, 2nd Floor, Brand New Everything, SS Kitchen $2000 / 1br - (Chinatown / Lit Italy)
-54	nolita	1925.0	1	5	1	Apr 29 For Rent: NoLita 1 Bdrm Apt $1925 / 1br - (NoLita)
-55	upper west side	2000.0	1	8	1	image 1 of 8
-Apr 29 !GREAT DEAL 1 BDRM TOTAL ELECTRIC! $2000 / 1br - 432ft2 - (Upper West Side)
-56	upper west side	1745.0	1	0	0	Apr 29 Sick CHARMING ______BARGAIN***LAUNDRY***Absolute Deal**83 street $1745 (Upper west side)
-57	manhattan	1825.0	1	0	1	Apr 29 Unreal Brand new  2 bedroom w/ Huge. Great location $1825 / 2br - (Manhattan)
-58	east harlem	1800.0	1	11	1	Apr 29 sunny spacious 1 bed!seperate kitchen!elev!Laundry!108/2nd!!! $1800 / 1br - (East Harlem)
-59	upper west side	1975.0	1	4	1	Apr 29 BEAUTIFUL, SUNNY STUDIO! LAUNDRY, VIEWS, NEAR PARK!!! RIVERSIDE DR! $1975 / 375ft2 - (Upper West Side)
-60	yonkers	1600.0	1	14	1	Apr 29 Apt w/ Hudson River, GWB and Manhattan views next to MetroNorth $1600 / 1br - (Yonkers)
-61	 inwood	1500.0	9	0	1	Apr 29 Broadway 2/ bedroom  / 1 bath wood floors $1500 / 2br - ( Inwood)
-62	east harlem	1811.0	2	5	1	Apr 29 Townhouse Beauty Deluxe! $1811 / 2br - (East Harlem)
-63	east harlem	1995.0	1	5	1	Apr 29 NEW 1 BR SPACIOUS BROWNSTONE showing now $1995 / 1br - 750ft2 - (East Harlem)
-64	 manhattan	1825.0	1	0	1	Apr 29 Unreal Brand new  2 bedroom w/ Huge. Great location $1825 / 2br - ( Manhattan)
-65	upper west side	1900.0	1	3	0	Apr 29 Studio-Elevator/Laundry-Reno-Best Deal-$1900 $1995 (upper west side/82rd&Broadway)
-66	inwood	1500.0	9	0	1	Apr 29 Broadway 2/ bedroom/  1 bath wood floors $1500 / 2br - (Inwood)
-67	murray hill	1975.0	1	4	1	Apr 29 JUST LISTED, CORNER RIVER VIEW ONE BEDROOM FOR RENT $1975 / 1br - (Murray Hill)
-68	gramercy	1840.0	1	15	0	Apr 29 GOT RENOVATED JR 1 BR- GREAT LOCATION-EAST 29 ST $1840 / 1br - 350ft2 - (Gramercy)
-69	upper east side	1995.0	1	9	1	Apr 29  EAST 60'S MINT RENOV'D  STUDIO ELEV BLDG, LA $1995 (Upper East Side)
-70	gramercy	1840.0	1	15	0	Apr 29 GOT RENOVATED JR 1 BR- GREAT LOCATION-EAST 29 ST $1840 / 1br - 350ft2 - (Gramercy)
-71	upper east side	1999.0	1	10	1	Apr 29  AMAZING MINT CONDITION STUDIO OFFERING  $1999 (Upper East Side)
-72	upper east side	1999.0	1	12	1	Apr 29 ELEVATOR, LAUNDRY, ALL NEW RENO--PRICE CAN'T BE BEAT $1999 (Upper East Side)
-73	midtown east	1925.0	1	3	1	Apr 29 Fully Furnished Junior One Bedroom in doorman building $1925 / 1br - (Midtown East)
-74	 new york cty	1825.0	2	0	1	Apr 29 2 Bedroom  W 164th St apt for rent $1825 / 2br - ( New York cty)
-75	upper east side	1995.0	1	12	1	Apr 29 ELEVATOR, LAUNDRY, ALL NEW RENO--PRICE CAN'T BE BEAT $1995 (Upper East Side)
-76	midtown east	1800.0	1	8	1	Apr 29 ~~~ COMPLETELY 1 BED APT. (UTILITIES INCLUDED) ~~~ $1800 / 1br - (Midtown East)
-77	lower east side	1700.0	1	6	1	Apr 29 Sun-drenched front facing 1BR located in the heart of the LES $1700 / 1br - (Lower East Side)
-78	upper west side	2000.0	1	4	1	Apr 29 GREAT APT! Brownstone W/ EXPD BRICK, SOUTH EXP, NEW KIT/BATH & LAUNDRY $2000 / 1br - 650ft2 - (Upper West Side)
-79	upper east side	1999.0	1	10	1	Apr 29 STUDIO LOFT--NEW KIT & BATH--STAINLESS STEEL, ELEVATOR, LAUNDRY, AC $1999 (Upper East Side)
-80	upper east side	1997.0	1	0	1	Apr 29 ALL NEW STUDIO--NEW KIT & BATH--STAINLESS STEEL, ELEVATOR, LAUNDRY, AC $1997 (Upper East Side)
-81	upper east side	1995.0	1	8	1	Apr 29 New Renovation! Unique & Charming Studio! $1995 (Upper East Side)
-82	clinton	1750.0	1	8	1	Apr 29 Beautifully renovated co-op apartment $1750 / 1br - (Clinton)
-83	clinton	1850.0	1	4	1	Apr 29 **Awesome Specials, Rush In Today! Ask about Our 1 Bdrm Apartment!** $1850 / 1br - (Clinton)
-84	inwood 	2000.0	1	5	1	Apr 29 Cabrini Blvd**True One Bedroom**Amazing Price! ((Hudson Heights))) $2000 / 1br - (Inwood / Wash Hts)
-85	chinatown 	1895.0	1	6	1	Apr 29 One bedroom with 2nd room for office/study $1895 / 1br - (Chinatown / Lit Italy)
-86	inwood 	1650.0	1	7	1	Apr 29 EXTRA LARGE AND BRIGHT !! $1650 / 1br - (Inwood / Wash Hts)
-87	upper west side	1575.0	1	7	1	Apr 29 Prime Location Stunning LARGE 1BR in beautiful brownstone building $1575 / 1br - (Upper West Side)
-88	upper east side	1995.0	1	6	1	Apr 29 UES bright 1 bedroom - 72nd & 1st Ave $1995 / 1br - (Upper East Side)
-89	upper east side	1775.0	1	5	1	Apr 29 74th and 2nd!!!! Super cute & bright studio!! ~~Way Under market `wont last! $1775 (Upper East Side)
-90	east village	1700.0	1	4	0	Apr 29 AMAZING LOCATION: 1 room in Spacious & Bright 3 bdrm 2nd Flr walkup $1700 / 3br - (East Village)
-91	east harlem	1875.0	2	7	1	Apr 29 Large 875sq $1875 / 2br - 850ft2 - (East Harlem)
-92	upper east side	2000.0	1	6	1	Apr 29 E. 89th! Large True One bedroom! Elevator/ laundry!! PRIME UES~Under market! $2000 / 1br - (Upper East Side)
-93	sutton place	1975.0	1	3	1	Apr 29 Beautiful Sutton/Mid/Town East Area $1975 / 1br - (Sutton Place)
-94	upper west side	1525.0	1	0	1	Apr 29 Spacious, Newly Renovated Studio, High Floor in 24 hr Secure Community $1525 (Upper West Side)
-95	harlem 	1890.0	1	6	1	Apr 29 Renovated 1BR w/ Live-In Super, 24/7 Security, Pet-Friendly Community $1890 / 1br - (Harlem / Morningside)
-96	harlem 	1990.0	2	7	1	Apr 29 Great location, So much space, City View $1990 / 2br - (Harlem / Morningside)
-97	inwood 	1995.0	2	5	0	Apr 29 AWESOMELY AFFORDABLE 2 BED IN INWOOD! $1995 / 2br - (Inwood / Wash Hts)
-98	east harlem	1950.0	1	6	1	Apr 29 Classic Harlem 1 Bed || By Owner + No Fee || Sunny & Spacious $1950 / 1br - (East Harlem)
-99	midtown west	1875.0	1	4	0	Apr 29 Charming Studio in Midtown West, even better price! $1875 (Midtown West)
-100	upper west side	1625.0	1	0	0	Apr 29 Amazing price for a Studio with Rooftop Deck $1625 (Upper West Side)
+1	inwood	1695.0	1	7	1	?Peace Of Mind 4 Finding Comfort TODAY?
+2	uppereastside	1600.0	2	5	1	STUDENT, INTERN flexible, furnished, utilities, cable & wifi included
+3	uppereastside	1725.0	1	4	0	******BEST DEAL ON THE UES***AMAZING BRIGHT AND SUNNY RENOVATED STUDIO
+4	tribeca	1750.0	1	9	1	$1750 - 1 bedroom in 2 bedroom apt - 5/15 start
+20	uppereastside	1550.0	1	3	1	UNBEATABLE DEAL ON REAL 1 BD APT, CAN'T BEAT THIS! WON'T LAST!!
+21	midtownwest	1575.0	2	0	0	Unbeatable Amenities, Huge Windows, Granite Counters!
+22	eastharlem	1670.0	9	5	1	Brand new Large 2 beds/2 bath renovated apartment!
+23	bowery	1545.0	2	0	0	Excellent Apt w/ the best in updates!
+24	uppereastside	1750.0	2	5	1	New to the market !
+25	harlem	1600.0	1	5	1	**Spacious Studio available ASAP! Located on 155th! Near Train!**
+26	harlem	1660.0	1	0	0	OVERSIZED STUDIO**TONS OF CLOSETS**DRESSING AREA**NO FEE
+27	eastharlem	1750.0	1	0	0	SPECTACULAR STUDIO APT--NEW RENOS--GR8 CLOSETS--UTIL INCL--NO FEE
+28	uppereastside	1750.0	1	7	1	*MUST SEE* GUT RENO STUDIO W/ LOTS OF SUNLIGHT ON E 89TH *LAUNDRY*
+29	inwood	1700.0	1	6	1	**SEE NOW**1BR in Inwood*Block from 1 Train**646-893-9732
+30	uppereastside	1750.0	1	6	1	Renovated! 89th & 1st! Big Studio! Great Price! SEE NOW! 917-723-3281
+31	greenwichvillage	1540.0	2	0	0	Start your day with memorizing views. - rent reduced!
+32	upperwestside	1745.0	1	0	0	Sick CHARMING ______BARGAIN***LAUNDRY***Absolute Deal**83 street
+33	yonkers	1600.0	1	14	1	Apt w/ Hudson River, GWB and Manhattan views next to MetroNorth
+34	inwood	1500.0	9	0	1	Broadway 2/ bedroom ? / 1 bath wood floors
+35	inwood	1500.0	9	0	1	Broadway 2/ bedroom/ ? 1 bath wood floors
+36	lowereastside	1700.0	1	6	1	Sun-drenched front facing 1BR located in the heart of the LES
+37	clinton	1750.0	1	8	1	Beautifully renovated co-op apartment
+38	inwood	1650.0	1	7	1	?EXTRA LARGE AND BRIGHT !!?
+39	upperwestside	1575.0	1	7	1	Prime Location Stunning LARGE 1BR in beautiful brownstone building
+60	eastvillage	1700.0	1	4	0	AMAZING LOCATION: 1 room in Spacious & Bright 3 bdrm 2nd Flr walkup
+61	upperwestside	1525.0	1	0	1	Spacious, Newly Renovated Studio, High Floor in 24 hr Secure Community
+62	upperwestside	1625.0	1	0	0	Amazing price for a Studio with Rooftop Deck
+63	uppereastside	1575.0	1	6	1	1 Bdrm Apartment One bedroom railroad style apartment located just one flight up
+64	uppereastside	1645.0	1	3	1	Big studio steal *****prime location******XPRESS TRAINS 89 ST & 3 AVE
+65	uppereastside	1525.0	1	4	1	NEW EXCLUSIVE!
+66	harlem	1650.0	1	4	1	Harlem Town Home ALL BRAND NEW GUT RENOVATED TRUE TWO BEDROOM WITH NICE SIZED LI
+67	lasvegas	1595.0	2	9	1	$1595 / 2br - 1200ft2 - Guest house w/2 car garage completely detached
+68	inwood	1625.0	2	0	1	BEAUTIFUL RENOVATED 2 BEDROOM
+69	gramercy	1555.0	2	4	0	Master bedrooms w/ double closets, several shopping options nearby
+70	uppereastside	1650.0	1	6	1	All 1 Beds = $1650 Great Deal!
+71	dunellennj	1700.0	3	24	1	3br - GREAT NYC commute location no park fees walk train Save
+72	inwood	1500.0	9	0	1	Broadway 2/ bedroom/ ? 1 bath wood floors
+73	upperwestside	1700.0	1	6	1	____Upper West Side__Broadway & West 109th__Rent Stabilized Studio____
+74	uppereastside	1550.0	1	4	1	Elevator Building ^^ Studio^^ Bright* Renovated= Live-in Super
+75	inwood	1550.0	1	6	1	**BIG BROADWAY BARGAIN** A+ VALUE - ACT NOW
+76	batterypark	1540.0	1	4	0	This floor plan is sunny and bright. Come by to see them anytime.
+77	eastvillage	1650.0	1	4	1	JUST LISTED!
+78	fortgeorge	1625.0	2	5	1	!!Happy Holidays!! Learn about our free rent special 2 bed/1 bath
+79	chelsea	1700.0	1	3	1	Great price for Chelsea.... Spacious Railroad style one bedroom with F
+80	uppereastside	1675.0	1	4	1	1 BR/1 BA with Stainless Steel Appliances Available Now
+81	harlem	1550.0	2	8	1	**Pick Your Unit** Utilities Included **Special Offer 1st 3 Months**
+82	eastharlem	1725.0	2	6	1	True two bedroom apartment with a private Balcony!
+83	clinton	1675.0	1	4	1	Centrally located spacious one bedroom in Midtown West
+84	batterypark	1545.0	2	4	0	1 Month Free Huge & Luxurious 2 BR Unit!
+85	unionsquare	1545.0	2	0	0	Move in ready with great specials! 1 month FREE!
+86	eastharlem	1600.0	1	20	1	gut renovated 1 bed ONE block to train. All is new!call me asap!!
+87	eastharlem	1600.0	1	10	1	sunny 1 bed apt!call to view asap!east 118/1st Ave
+88	harlem	1650.0	1	11	1	No Fee Large Renovated Studio ,Laundry /Elevator City college
+89	upperwestside	1700.0	2	3	1	Apartment on 105 and Riverside - Private Balcony Overlooking Hudson
+90	unionsquare	1000.0	2	4	0	We're Giving You $1000 Just To Move In
+91	harlem	1650.0	1	5	1	AMAZING PRICE 1 BEDROOM :::NO FEE:::
+92	eastharlem	1750.0	1	8	1	Very Large ONE bedroom!MONSTER!come and get it now!!!
+93	eastharlem	1550.0	1	8	1	SUNNY AND SPACIOUS ONE BED!call asap!east 117th and 2nd ave!!dont miss
+94	flatiron	1595.0	2	0	0	Now thats a thing of beauty!
+95	financialdistrict	1650.0	3	9	1	Master Bedroom Avail 6/1 or 8/1 in 3/2 Apt off of Wall Street
+96	greenwichvillage	1520.0	2	0	0	Over 2K In Savings! Perfect Location-Walk to Grocery, Shops, & More!
+97	statenisland	1625.0	1	5	1	NO FEE!!! 1 bed luxury living with too many amenities to list
+98	uppereastside	1700.0	1	8	0	UPDATED AND SPACIOUS STUDIO--NEW KITCHEN--E106/LEXINGTON AVE--FEB 10
+99	inwood	1500.0	1	4	0	Inwood Special! Terrific ELEVATOR bldg Spacious 1br apt Near Trains
+100	eastvillage	1670.0	1	8	1	COME VIEW THIS 1 BEDROOM BEFORE IT IS COMPLETED!
+101	inwood	1580.0	1	6	1	New Fully Renovated One Bedroom Apt Next2 Yeshiva Univ (See Pix)
+102	inwood	1600.0	1	4	1	Beautiful Fully Renovated 1 Bdr Apt Next 2 Columbia Presby Hospital
+103	harlem	1734.0	1	0	1	two bedroom
+104	eastharlem	100.0	1	5	1	? $100 GIFT CARD ? H/H INCLUDED ? BRIGHT
+105	eastharlem	100.0	1	3	1	? $100 GIFT CARD ? H/H INCLUDED ? 6 TRAIN
+106	eastharlem	100.0	1	4	1	? H/H INCLUDED ? CLEAN ? $100 GIFT CARD
+107	eastharlem	1700.0	1	3	1	GUT RENOVATED 1 BEDROOM CLOSE TO TRANSPORTATION IS MOVE IN READY
+108	eastharlem	1500.0	1	9	1	Large front facing jr ONE bedroom 4 doors from 6 train!call for view!
+109	hamiltonheights	1675.0	2	7	1	NEWLY RENOVATED 2 Bedroom right off Riverside Drive!
+110	eastharlem	1700.0	1	7	1	Large sunny renovated ONE bed apt!east 117th and Lex!Elevator!call!!!!
+111	unionsquare	1540.0	2	0	0	Last of our Amazing Move-In Special! Move-In for FREE!
+112	murrayhill	1525.0	1	4	1	Lease 1 Bdrm - Sunny Queen Size 1 Bed Spacious Living Room Top Floor / 2 Apts pe
+113	uppereastside	1745.0	1	4	1	New/1?BED Apt?Renovated/Kitchen?Elevator?Building/w/
+114	uppereastside	1550.0	1	4	1	New/Studio?Apt?Renovated/Kitchen?Elevator?Building/w/ La
+115	midtowneast	500.0	2	4	0	Win a $500 shopping spree and one month free rent for the new year!
+116	harlem	1650.0	1	0	0	GREAT STUDIO--WALL OF CLOSETS--NEW RENOS--ATTND LOBBY--NO FEE
+117	upperwestside	1750.0	1	8	1	Upper West Side Apartment Home For Rent 1 Bdrm / 1 Bth
+118	uppereastside	1750.0	1	7	1	*MUST SEE* GUT RENO STUDIO W/ LOTS OF SUNLIGHT ON E 89TH *LAUNDRY*
+119	inwood	1670.0	2	4	1	All 2 Bdrms = $1670 Great Deal!
+120	uppereastside	1695.0	2	8	1	2 Bedroom Condo Cozy 2 bedroom with an open kitchen with a window, dishwasher an
+121	inwood	1650.0	1	7	1	HUGE 1BR - GREAT PRICE - GREAT SIZE - LAUNDRY
+122	eastharlem	1500.0	1	4	1	** RENOVATED, SPACIOUS STUDIO ---
+123	uppereastside	1540.0	1	8	1	MASSIVE 600 Square foot 1 bedroom!
+124	kipsbay	1675.0	1	4	1	Kips Bay Apt For Lease 1 Bdrm
+125	clinton	1599.0	8	7	1	Brand new to market
+126	uppereastside	1745.0	1	4	1	-*Bright 1 Bedroom -*Renovated KITCHEN*****Elev + Laundry in the Bldg
+127	eastharlem	1639.0	1	4	1	? FREE NETFLIX ? GUT RENOVATED ? BRIGHT
+128	uppereastside	1550.0	1	4	1	^UNIQUE Studio Apt *** Newly RENOVATED Appliances in KIT - Elevator
+129	eastharlem	1649.0	1	4	1	~Beautiful~Super Sunny~Harlem~1BR~Pets OK
+130	eastharlem	1649.0	1	4	1	~Beautiful~Harlem~1BR~Pets OK~6 train
+131	eastharlem	1699.0	1	10	1	~NO FEE~Beautiful~Sunny~Harlem 1BR~
+132	eastharlem	1745.0	1	6	1	~Amazing~HUGE~Harlem~1BR~pets OK
+133	inwood	1695.0	2	13	1	GUT RENOVATED - GREAT PRICE & LOCATION -NO FEE - CALL NOW!
+134	harlem	1660.0	1	7	1	**No Fee! Spacious Studio w River View:Laundry, Doorman & Elevator ***
+135	inwood	1575.0	1	7	1	1 Bedroom Apartment// 1 FREE MONTH OF RENT// NO FEE
