@@ -1,9 +1,9 @@
-package testing_omer;
+package aptReduceCrawler;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class ApartmentObject {
-	
+	// Make it atomic so that multiple threads do not overlap.
 	private static AtomicInteger nextId = new AtomicInteger();
     private int id;
     
@@ -36,6 +36,7 @@ public class ApartmentObject {
 		this.numBedrooms = numBedrooms;
 	}
 	
+	// To print, check if extra fields are needed for craigslist.
 	public String toString(){
 		if(!isCraigsList)
 			return this.id + delimiter + this.neighborhood + delimiter + this.rent + delimiter + this.numBedrooms;
